@@ -1,12 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Correio Natalino 🎅</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <canvas id="estrelas"></canvas>
+    <header>
+        <h1>🎄Correio para o papai noel🎄</h1>
+        <p>Mande sua carta para o papai noel!</p>
+    </header>
+
+    <main>
+        <form id="form-carta">
+            <input type="text" id="nome" placeholder="Seu nome" required>
+            <input type="number" id="idade" placeholder="Sua idade" required>
+            <textarea id="pedido" placeholder="O que você quer de natal?"></textarea>
+            <button type="submit">Enviar carta ✉</button>
+        </form>
+
+        <div id="resposta" class="hidden"></div>
+    </main>
+
+    <audio id="musica" src="" loop></audio>
+    <button id="som">🔊 Música</button>
+
     <script src="script.js"></script>
 </body>
+
 </html>
