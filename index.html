@@ -1,35 +1,31 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Correio Natalino 🎅</title>
+    <title>Correio do Noel</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=17361&format=png&color=000000" type="image/x-icon">
 </head>
-
 <body>
-    <canvas id="estrelas"></canvas>
+    <canvas id="stars"></canvas>
+
     <header>
-        <h1>🎄Correio para o papai noel🎄</h1>
-        <p>Mande sua carta para o papai noel!</p>
+        <h1>🎄 Correio do Noel 🎁</h1>
+        <p>Envie sua mensagem para o Papai Noel!</p>
     </header>
 
     <main>
-        <form id="form-carta">
+        <form id="form-noel">
             <input type="text" id="nome" placeholder="Seu nome" required>
             <input type="number" id="idade" placeholder="Sua idade" required>
-            <textarea id="pedido" placeholder="O que você quer de natal?"></textarea>
-            <button type="submit">Enviar carta ✉</button>
+            <textarea id="pedido" placeholder="O que você deseja neste Natal?" required></textarea>
+            <button type="submit">Enviar</button>
         </form>
 
         <div id="resposta" class="hidden"></div>
     </main>
 
-    <audio id="musica" src="" loop></audio>
-    <button id="som">🔊 Música</button>
-
     <script src="script.js"></script>
 </body>
-
 </html>
