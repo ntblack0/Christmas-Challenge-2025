@@ -120,3 +120,10 @@ button[type="submit"]:hover {
 .hidden {
     display: none;
 }
+
+/* Rodapé */
+
+footer {
+  display: flex;
+  align-items: center;
+}
