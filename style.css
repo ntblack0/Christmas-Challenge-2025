@@ -56,14 +56,15 @@ form {
     width: 90%;
     max-width: 400px;
     margin: 0 auto;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 1rem;
     padding: 2rem;
-    box-shadow: 0 0 20px rgba(255,255,255,0.2);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(4px);
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     border: none;
     border-radius: 8px;
@@ -96,7 +97,7 @@ button[type="submit"]:hover {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.1);
     color: white;
     border: none;
     border-radius: 10px;
@@ -110,7 +111,7 @@ button[type="submit"]:hover {
 #resposta {
     margin-top: 2rem;
     font-size: 1.2rem;
-    background: rgba(255,255,255,0.15);
+    background: rgba(255, 255, 255, 0.15);
     padding: 1rem;
     border-radius: 10px;
     width: fit-content;
@@ -124,6 +125,16 @@ button[type="submit"]:hover {
 /* Rodapé */
 
 footer {
-  display: flex;
-  align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    color: gray;
+}
+
+footer,
+a {
+    text-decoration-line: none;
+}
+
+a {
+    color: red;
 }

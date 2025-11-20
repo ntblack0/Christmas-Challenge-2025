@@ -1,4 +1,4 @@
-// 🎅 Correio do Noel
+// Correio do Noel
 
 const form = document.getElementById("form-noel");
 const resposta = document.getElementById("resposta");
